@@ -6,9 +6,7 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
-    "types": [
-      "cdk-table-exporter"
-    ],
+    "types": [],
   },
   "exclude": [
     "**/*.spec.ts"

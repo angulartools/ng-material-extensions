@@ -25,5 +25,5 @@ export declare class MatTableFilterDirective implements DoCheck {
     private getFilterPredicate;
     private getMatDataSource;
     static ɵfac: i0.ɵɵFactoryDeclaration<MatTableFilterDirective, [null, { optional: true; host: true; self: true; }]>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<MatTableFilterDirective, "[matTableFilter]", ["matTableFilter"], { "exampleEntity": "exampleEntity"; "debounceTime": "debounceTime"; "filterType": "filterType"; "caseSensitive": "caseSensitive"; "customPredicate": "customPredicate"; "propertyOptions": "propertyOptions"; }, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<MatTableFilterDirective, "[matTableFilter]", ["matTableFilter"], { "exampleEntity": { "alias": "exampleEntity"; "required": false; }; "debounceTime": { "alias": "debounceTime"; "required": false; }; "filterType": { "alias": "filterType"; "required": false; }; "caseSensitive": { "alias": "caseSensitive"; "required": false; }; "customPredicate": { "alias": "customPredicate"; "required": false; }; "propertyOptions": { "alias": "propertyOptions"; "required": false; }; }, {}, never, never, false, never>;
 }

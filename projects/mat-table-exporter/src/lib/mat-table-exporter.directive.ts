@@ -74,7 +74,7 @@ export class MatTableExporterDirective extends CdkTableExporter implements After
   /**
    * MatTable implementation of getPageChangeObservable
    */
-  public getPageChangeObservable(): Observable<any> | undefined {
+  public getPageChangeObservable(): Observable<any> | any {
     return this.getPaginator()?.page;
   }
 
