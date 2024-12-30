@@ -8,7 +8,8 @@ import { MatTableFilterService } from './services/mat-table-filter.service';
 
 @Directive({
   selector: '[matTableFilter]',
-  exportAs: 'matTableFilter'
+  exportAs: 'matTableFilter',
+  standalone: false,
 })
 export class MatTableFilterDirective implements DoCheck {
   private _oldExampleEntity: any;

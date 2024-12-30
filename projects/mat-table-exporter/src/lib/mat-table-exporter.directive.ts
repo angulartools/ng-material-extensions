@@ -6,7 +6,8 @@ import { Observable } from 'rxjs';
 
 @Directive({
   selector: '[matTableExporter]',
-  exportAs: 'matTableExporter'
+  exportAs: 'matTableExporter',
+  standalone: false,
 })
 export class MatTableExporterDirective extends CdkTableExporter implements AfterViewInit {
   /**

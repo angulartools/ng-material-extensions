@@ -41,13 +41,14 @@ export function markedOptions(): MarkedOptions {
     gfm: true,
     breaks: false,
     pedantic: false,
-    smartLists: true,
-    smartypants: false,
+    // smartLists: true,
+    // smartypants: false,
   };
 }
 
 
-@NgModule({ declarations: [
+@NgModule({
+  declarations: [
         AppComponent,
         ExporterComponent,
         FilterComponent,
@@ -60,16 +61,9 @@ export function markedOptions(): MarkedOptions {
         CustomExporterComponent,
         SelectionExporterComponent
     ],
-    bootstrap: [AppComponent],
-    entryComponents: [
-        ArrayFilterComponent,
-        BriefExporterComponent,
-        CustomColumnFilterComponent,
-        CustomExporterComponent,
-        SimpleFilterComponent,
-        PropertyOptionsComponent,
-        SelectionExporterComponent
-    ], imports: [BrowserModule,
+
+    imports: [
+        BrowserModule,
         FormsModule,
         PortalModule,
         MarkdownModule.forRoot({
@@ -93,5 +87,8 @@ export function markedOptions(): MarkedOptions {
         MatPaginatorModule,
         MatSelectModule,
         MatTableModule,
-        MatTabsModule], providers: [provideHttpClient(withInterceptorsFromDi())] })
+        MatTabsModule],
+   providers: [provideHttpClient(withInterceptorsFromDi())],
+   bootstrap: [AppComponent],
+  })
 export class AppModule { }

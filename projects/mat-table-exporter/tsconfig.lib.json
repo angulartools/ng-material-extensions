@@ -6,7 +6,12 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
-    "types": [],
+    "types": [
+      "cdk-table-exporter"
+    ],
+    "typeRoots": [ 
+      "../../dist/cdk-table-exporter", "../../dist/cdk-table-exporter/lib"
+    ],
   },
   "exclude": [
     "**/*.spec.ts"
