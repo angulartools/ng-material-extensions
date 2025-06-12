@@ -1,6 +1,6 @@
 {
   "name": "cdk-table-exporter",
-  "version": "19.0.0",
+  "version": "20.0.0",
   "description": "Abstract CdkTable Exporter",
   "author": "Halit Talha Türe",
   "license": "Apache-2.0",
@@ -14,9 +14,9 @@
     "lib-chk-up": "npx ncu -u"
   },
   "peerDependencies": {
-    "@angular/cdk": "^19.0.5",
-    "@angular/common": "^19.0.5",
-    "@angular/core": "^19.0.5"
+    "@angular/cdk": "^20.0.3",
+    "@angular/common": "^20.0.3",
+    "@angular/core": "^20.0.3"
   },
   "dependencies": {
     "file-saver-es": "^2.0.5",
@@ -25,9 +25,9 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@types/file-saver-es": "^2.0.3",
-    "typescript": "^5.6.3",
-    "npm-check-updates": "17.1.14"
+    "@types/file-saver-es": "^2.0.5",
+    "typescript": "^5.8.3",
+    "npm-check-updates": "18.0.1"
   },
   "keywords": [
     "cdktable",

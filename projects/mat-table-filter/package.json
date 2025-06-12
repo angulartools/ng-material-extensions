@@ -1,27 +1,31 @@
 {
   "name": "mat-table-filter",
-  "version": "19.0.0",
-  "license": "Apache-2.0",
+  "version": "20.0.0",
+  "description": "Provides filtering support for @angular/material tables",
   "author": "Halit Talha Türe",
+  "license": "Apache-2.0",
+  "homepage": "https://halittalha.github.io/ng-material-extensions",
   "repository": {
     "type": "git",
     "url": "https://github.com/HalitTalha/mat-table-extensions/tree/master/projects/mat-table-filter"
   },
-  "description": "Provides filtering support for @angular/material tables",
-  "homepage": "https://halittalha.github.io/ng-material-extensions/",
+  "scripts": {
+    "lib-chk": "npx ncu",
+    "lib-chk-up": "npx ncu -u"
+  },
   "peerDependencies": {
-    "@angular/cdk": "^19.0.5",
-    "@angular/common": "^19.0.5",
-    "@angular/core": "^19.0.5",
-    "@angular/material": "^19.0.4"
+    "@angular/cdk": "^20.0.3",
+    "@angular/common": "^20.0.3",
+    "@angular/core": "^20.0.3",
+    "@angular/material": "^20.0.3"
   },
   "dependencies": {
     "lodash-es": "^4.17.21",
     "tslib": "^2.8.1"
   },
   "devDependencies": {
-    "typescript": "^5.6.3",
-    "@types/lodash-es": "^4.17.6"
+    "typescript": "^5.8.3",
+    "@types/lodash-es": "^4.17.12"
   },
   "sideEffects": false,
   "keywords": [
