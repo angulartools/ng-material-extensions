@@ -31,7 +31,7 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@types/file-saver-es": "^2.0.5",
+    "@types/file-saver": "^2.0.5",
     "typescript": "^5.8.3",
     "npm-check-updates": "18.0.1"
   },

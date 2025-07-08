@@ -2,12 +2,18 @@
   "name": "mat-table-filter",
   "version": "20.0.0",
   "description": "Provides filtering support for @angular/material tables",
-  "author": "Halit Talha Türe",
+  "author": "Angular Tools DR",
+  "contributors": [
+    {
+      "name": "Halit Talha Türe",
+      "url": "https://github.com/HalitTalha"
+    }
+  ],
   "license": "Apache-2.0",
-  "homepage": "https://halittalha.github.io/ng-material-extensions",
+  "homepage": "https://angulartoolsdr.github.io/ng-material-extensions",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HalitTalha/mat-table-extensions/tree/master/projects/mat-table-filter"
+    "url": "https://github.com/angulartoolsdr/mat-table-extensions/tree/master/projects/mat-table-filter"
   },
   "scripts": {
     "lib-chk": "npx ncu",
