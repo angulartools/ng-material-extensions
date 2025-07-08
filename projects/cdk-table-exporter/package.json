@@ -1,6 +1,6 @@
 {
   "name": "@angulartoolsdr/cdk-table-exporter",
-  "version": "20.0.6-custom.1",
+  "version": "20.0.6-custom.2",
   "description": "Abstract CdkTable Exporter",
   "author": "Angular Tools DR",
   "contributors": [
