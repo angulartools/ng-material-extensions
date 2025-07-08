@@ -1,12 +1,18 @@
 {
-  "name": "ng-material-extensions",
+  "name": "@angulartoolsdr/ng-material-extensions",
   "version": "20.0.0",
   "license": "Apache-2.0",
   "description": "Extended features for @angular/material components",
-  "author": "Halit Talha Türe",
+  "author": "Angular Tools DR",
+  "contributors": [
+    {
+      "name": "Halit Talha Türe",
+      "url": "https://github.com/HalitTalha"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/HalitTalha/ng-material-extensions"
+    "url": "https://github.com/angulartools/ng-material-extensions"
   },
   "scripts": {
     "ng": "ng",
