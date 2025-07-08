@@ -1,6 +1,6 @@
 {
   "name": "@angulartoolsdr/mat-table-exporter",
-  "version": "20.0.6",
+  "version": "20.0.6-custom.1",
   "description": "Provides exporting support for @angular/material tables",
   "author": "Angular Tools DR",
   "contributors": [

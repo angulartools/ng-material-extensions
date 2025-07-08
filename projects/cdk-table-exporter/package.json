@@ -1,6 +1,6 @@
 {
   "name": "@angulartoolsdr/cdk-table-exporter",
-  "version": "20.0.6",
+  "version": "20.0.6-custom.1",
   "description": "Abstract CdkTable Exporter",
   "author": "Angular Tools DR",
   "contributors": [
@@ -20,7 +20,7 @@
     "lib-chk-up": "npx ncu -u"
   },
   "peerDependencies": {
-    "@angular/cdk": "^20.0.6",
+    "@angular/cdk": "^20.0.4",
     "@angular/common": "^20.0.6",
     "@angular/core": "^20.0.6"
   },
